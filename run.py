@@ -15,9 +15,9 @@ def runner(function):
 
 @runner
 def runc(file):
-	system(f'gcc {file[0]} -o ./compile/.{file[0]}.cout')
+	system(f' gcc {file[0]} -o ./compile/.{file[0]}.cout')
 	# system( f"qemu-aarch64  -L /usr/lib/aarch64-linux-gnu ./compile/.{file[0]}.cout");
-	system( f" ./compile/.{file[0]}.cout");
+	system( f"./compile/.{file[0]}.cout");
 
 @runner
 def runpy(file):
