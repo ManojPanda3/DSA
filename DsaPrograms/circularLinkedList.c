@@ -72,5 +72,6 @@ int main(void){
     cirLinkListInsertEnd(node,60);
     cirLinkListInsertIndex(node,7,60,3);
     cirNodeDisplay(node,8);
+    free(node);
     return 0;
 }
