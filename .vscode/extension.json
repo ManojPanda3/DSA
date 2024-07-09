@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+      
+    ]
+    ,"scripts": {
+    "init": "bash.vscode/init.sh"
+  }
+  }
